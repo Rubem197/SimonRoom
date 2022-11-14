@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="411dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:orientation="horizontal">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentoVerde"
+                android:name="com.example.simon.VerdeFragment"
+                android:layout_width="197dp"
+                android:layout_height="match_parent" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentoRojo"
+                android:name="com.example.simon.RojoFragment"
+                android:layout_width="213dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:orientation="horizontal">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentoAmarillo"
+                android:name="com.example.simon.AmarilloFragment"
+                android:layout_width="197dp"
+                android:layout_height="256dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentoAzul"
+                android:name="com.example.simon.azulFragment"
+                android:layout_width="208dp"
+                android:layout_height="256dp" />
+
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentoIniciar"
+            android:name="com.example.simon.IniciarFragment"
+            android:layout_width="172dp"
+            android:layout_height="81dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

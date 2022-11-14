@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RojoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnRojo"
+        android:layout_width="290dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#A51A1A"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/btnRojo2"
+        android:layout_width="290dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#FF2323"
+        android:visibility="invisible"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</FrameLayout>

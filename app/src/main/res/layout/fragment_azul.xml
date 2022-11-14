@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".azulFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnAzul"
+        android:layout_width="290dp"
+        android:layout_height="325dp"
+        android:backgroundTint="#1A7EA5"
+        android:visibility="visible"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/btnAzul2"
+        android:layout_width="290dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"
+        android:backgroundTint="#23C1FF"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</FrameLayout>
